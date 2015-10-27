@@ -1,0 +1,118 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+   
+}
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+	width: 100%;
+    height: 100px;
+    background-image: url(header.jpg);
+    padding: 0;
+    position: relative;
+}
+header h1 {
+    margin-left: 30px;
+    position: relative;
+    top: 10%;
+    float: left;
+}
+header p {
+    position: relative;
+    top: 10%;
+    float: right;
+    margin-right: 20px;  
+}
+nav {
+    background-color: grey;
+    height: 35px;  
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    margin-right: 5%;
+    margin-left: 20px;
+} 
+#slideshow {
+    background-image: url(beach.jpg);
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-style: outset;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    width: 98%;
+    height: 360px;
+}
+
+#dateCheck {
+    background-image: url(datebooker.png);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#container {
+    overflow:hidden;
+}
+content {
+    background-color: aliceblue;
+    position: relative;
+    top: 20px;
+    float: left;
+    width: 69%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    
+}
+h2  { 
+    margin-left: 10%;
+    padding-bottom: 0;
+    width: 100%;
+
+}
+content p {
+    padding: 10px;
+    position: relative;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+article{
+    position: relative;
+    float: right;
+    top:20px;
+    width: 30%;
+    height: 500px;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    }
+article table{
+    height:100%;
+    width: 100%;
+}
+article table td {
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+footer {
+    background-color: #E0FFFF;
+	position: absolute;
+    bottom: 0;
+	width: 100%;
+    height: 25px;
+}
